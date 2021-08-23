@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+    </head>
+
+    <body style="margin: 0px; overflow: hidden;" >
+        <a-scene vr-mode-ui="enabled: false;" embedded arjs="sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;" >
+            <a-assets>
+                <a-asset-item id = 'man' src = './assets/man_walking/scene.gltf' ></a-asset-item>
+                <a-asset-item id = 'lamp' src = './assets/street_lighting_torch/scene.gltf' ></a-asset-item>
+                <a-asset-item id = 'ghost' src = './assets/ghost/scene.gltf' ></a-asset-item>
+            </a-assets>
+            <a-marker preset = 'hiro' >
+                <a-entity gltf-model="#lamp" scale="5 5 5"  position="-2.5 0 0.5" animation-mixer ></a-entity>
+                <a-entity gltf-model="#man" scale="1 1 1" position="0 0 0" animation-mixer ></a-entity>
+                <a-entity gltf-model="#ghost" scale="1 1 1" position="-3 0 0" animation-mixer ></a-entity>
+            </a-marker>
+        </a-scene>
+    </body>
+
+</html>

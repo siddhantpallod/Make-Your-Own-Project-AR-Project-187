@@ -1,0 +1,11 @@
+Model Information:
+* title:	Street lighting torch
+* source:	https://sketchfab.com/3d-models/street-lighting-torch-d66937cc78f1452194fb3b8d8c9753f6
+* author:	arifinxhabibie (https://sketchfab.com/arifinxhabibie)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Street lighting torch" (https://sketchfab.com/3d-models/street-lighting-torch-d66937cc78f1452194fb3b8d8c9753f6) by arifinxhabibie (https://sketchfab.com/arifinxhabibie) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
